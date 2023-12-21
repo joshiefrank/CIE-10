@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .cajones {
     display: flex;
     flex-direction: column;
@@ -20,6 +24,7 @@
 .horizontal{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .horizontal .contenido{
     flex-grow: 1;
@@ -31,4 +36,17 @@ ul.menu{
 }
 li.menu-logo{
     margin-right: auto;
+}
+.cuadrado-redondo{
+    display: inline-block;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+}
+.azul{
+    background-color: aqua;
+    border-radius: 5px;
 }
